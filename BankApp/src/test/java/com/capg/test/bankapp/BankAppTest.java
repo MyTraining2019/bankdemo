@@ -104,10 +104,10 @@ public class BankAppTest {
 	
 	
 	
-	@Test(timeout=2)
+	@Test(timeout=200)
 	public void test_loop() {
 		int sum=0;
-		for(int i=0;i<10000000000l;i++) {
+		for(int i=0;i<100000l;i++) {
 			sum+=i;
 			//System.out.println(sum);
 		}
