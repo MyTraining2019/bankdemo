@@ -17,7 +17,7 @@ import com.capg.bankapp.service.AccountServiceImpl;
 import com.capg.bankapp.service.IAccountService;
 import com.capg.bankapp.util.InsufficientOpeningBalanceException;
 
-public class BankAppTestCases {
+public class BankAppTest {
 	
 	@Mock
 	private IAccountDao accountDao;
